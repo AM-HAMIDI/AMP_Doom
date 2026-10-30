@@ -10,4 +10,16 @@ Debug/
 Release/
 Build/
 doomgeneric.map
-scripts/linux_venv
+
+# POS build outputs
+doomgeneric/build_pos/
+output/
+
+# Python
+scripts/linux_venv/
+__pycache__/
+*.pyc
+
+# Files Doom writes if you run it from the source tree
+.default.cfg
+.savegame/
